@@ -30,6 +30,9 @@
   margin-bottom: 10px;
 }
 
+.elementsContainer:hover {
+  background: var(--hover-light-grey-color);
+}
 .svgContainer {
   margin-right: 10px;
 }

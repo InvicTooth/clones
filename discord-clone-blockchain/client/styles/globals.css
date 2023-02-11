@@ -24,3 +24,29 @@ body {
     font-size: var(--font-size);
     color: var(--grey-text-color);
 }
+#offline {
+  background: rgb(113 118 122);
+  border-width: 3px;
+}
+
+#offline:befor {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: var(--semi-deep-grey);
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+input[type='search'] {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: var(--deep-grey);
+  padding: 7px;
+  border-radius: 5px;
+  color: #fff;
+}
