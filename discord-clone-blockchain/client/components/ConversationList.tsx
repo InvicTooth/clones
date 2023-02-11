@@ -75,6 +75,7 @@ const ConversationList = () => {
               dm.avatar ||
                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS30CSMFI'
               }
+              status='online'
           />
         ))}
       </div>
