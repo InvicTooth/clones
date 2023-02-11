@@ -2,11 +2,11 @@ import styles from '@/styles/sidebar.module.css'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 
-import avatar1 from '@/assets/avatar1.webp'
-import avatar2 from '@/assets/avatar2.png'
-import avatar3 from '@/assets/avatar3.webp'
-import avatar4 from '@/assets/avatar4.webp'
-
+import avatar1 from '@/assets/avatar-1.webp'
+import avatar2 from '@/assets/avatar-2.png'
+import avatar3 from '@/assets/avatar-3.webp'
+import avatar4 from '@/assets/avatar-4.webp'
+import RoomAvatar from './RoomAvatar'
 
 const dummyChannels = [
   {
