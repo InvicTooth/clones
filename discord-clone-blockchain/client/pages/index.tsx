@@ -1,6 +1,7 @@
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Sidebar from '@/components/Sidebar'
+import ConversationList from '@/components/ConversationList'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,7 +10,7 @@ export default function Home() {
     <div className={styles.wrapper}>
       <Sidebar />
       <div className={styles.main}>
-        conversationList
+        <ConversationList />
         chat view
       </div>
     </div>
