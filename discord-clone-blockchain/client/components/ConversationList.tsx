@@ -1,4 +1,4 @@
-import styles from '@/styles/ConversationList.module.css'
+import styles from '@/styles/conversationList.module.css'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import friends from '@/assets/icons/friends.svg'

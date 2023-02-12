@@ -1,6 +1,6 @@
 .chatHeader {
-
-
+  width: 100%;
+    background: var(--light-grey);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,7 +43,7 @@
 }
 
 .headerItem {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .connectWallet {
