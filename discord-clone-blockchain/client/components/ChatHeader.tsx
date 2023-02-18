@@ -1,7 +1,5 @@
-
 import Image from 'next/image'
 import styles from '@/styles/chatHeader.module.css'
-
 import personPlus from '@/assets/icons/person-plus.svg'
 import video from '@/assets/icons/video.svg'
 import inbox from '@/assets/icons/inbox.svg'

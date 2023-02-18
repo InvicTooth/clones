@@ -6,6 +6,7 @@ export const DiscordContext = createContext()
 
 const gun = Gun(['https://discordgunnode-pjhkaka.b4a.run/ '])
 
+const initialState = { messages: [] }
 const reducer = (state, action) => {
   try {
     if(action.type == 'clear') return {messages:[]}
@@ -29,7 +30,7 @@ export const DiscordProvider = ({children}) => {
     checkIfWalletIsConnected()
   }, [])
 
-  const createUserAccount = async () => {
+  const createUserAccount = async (userAddress = currentAccount) => {
     if (!window.ethereum) return
     try {
       const data = {
